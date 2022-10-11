@@ -19,9 +19,7 @@ export default function LangDropdown() {
 
   return (
     <Dropdown>
-      <Dropdown.Button light flat>
-        {locale}
-      </Dropdown.Button>
+      <Dropdown.Button light>{locale}</Dropdown.Button>
       <Dropdown.Menu
         disallowEmptySelection
         selectionMode="single"
